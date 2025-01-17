@@ -381,7 +381,7 @@ export const socialHandles = [
   {
     name: "Telegram",
     icon: <FaTelegramPlane />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "https://www.google.co.in/",
   },
 ];
 
