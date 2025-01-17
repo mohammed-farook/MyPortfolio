@@ -13,7 +13,7 @@ const Facts = () => {
       setExperience(1);
       setProject(10);
       setClients(100);
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timeOutId);
   }, []);
   return (
