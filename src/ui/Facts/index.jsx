@@ -13,7 +13,7 @@ const Facts = () => {
       setExperience(1);
       setProject(10);
       setClients(100);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timeOutId);
   }, []);
   return (
@@ -29,7 +29,7 @@ const Facts = () => {
       <div className="fact__item">
         <div className="flex__center">
           <Odometer value={project} className="title" />
-          <h3 className="title">+</h3>
+          <h3 className="title">s</h3>
         </div>
         <p className="label">Completed Projects</p>
       </div>
